@@ -1,12 +1,12 @@
-import { Typography } from "antd";
-
 export default function AuthTitle() {
     return (
-        <div className="text-center mb-6">
-            <Typography.Title level={1} className="!mb-2">Login</Typography.Title>
-            <Typography.Paragraph type="secondary">
-                Access your account by entering your email and password below. If you don't have an account, you can sign up for free.
-            </Typography.Paragraph>
+        <div className="mb-10 text-center md:text-left">
+            <h2 className="text-4xl font-semibold text-gray-900 mb-3">
+                Welcome Back
+            </h2>
+            <p className="text-gray-500">
+                Enter your email and password to access your account
+            </p>
         </div>
     );
 }
